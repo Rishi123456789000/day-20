@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container{
+            display: grid;
+            border: 2px solid;
+            height: 500px;
+            width: 600px;  
+     
+            
+        }
+        .grid-container div{
+            border: 1px solid;
+
+        }
+        .head{
+            text-align: center;
+           grid-column: 1/5;
+            align-content: center;
+            
+
+        }
+        .nav{
+            text-align: center;
+            font-size:x-large;
+            grid-column: 1/5;
+            align-content: center;
+        }
+        .ind{
+            grid-row:3/4;
+            font-size: medium;
+            text-align: center;
+            align-content: center;
+            font-size: larger;
+        }
+        .art{
+            text-align: center;
+            font-size: large;
+            align-content: center;
+            
+        }
+        .section{
+            grid-column: 2/5;
+            grid-row: 3/5;
+            text-align: center;
+            align-content: center;
+            font-size: larger;
+        }
+        
+        .footer{
+            grid-column: 1/5;
+            text-align: center;
+            font-size: x-large;
+            align-content: center;
+        }
+        .footer:hover{
+            background-color: aquamarine;
+        }
+        .head:hover{
+            background-color: antiquewhite;
+        }
+        .nav:hover{
+            background-color: grey;
+        }
+        .section:hover{
+            background-color: rgba(255, 166, 0, 0.24);
+        }
+        .ind:hover{
+            background-color: rgb(66, 66, 97);
+        }
+        .art:hover{
+            background-color:orange;
+        }
+    
+    
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <div class="head"> HEADER SECTION </div>
+        <div class="nav"> NAVIGATION BAR  </div>
+        <div class="ind"> Index </div>
+        <div class="section"> Content Section </div>
+        <div class="art"> Article</div>
+        <div class="footer"> FooterSection </div>
+
+
+    </div>
+
+</b
